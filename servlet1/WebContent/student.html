@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<body>
+<!--  student's name and details for delete and put nethods --> 
+
+<form action = "add_student" method = "get">
+Enter student id: <input type = "text" name = "stu_id"> 
+Enter student name: <input type = "text" name = "stu_name"> 
+<input type = "submit">
+
+</form> 
+
+<form action = "add_student" method = "post">
+Enter student id: <input type = "text" name = "stu_id"> 
+Enter student name: <input type = "text" name = "stu_name"> 
+<input type = "submit">
+
+</form> 
+
+<form action = "delete_student" method = "delete">
+<!-- Delete using formmethod -->
+Enter student whose name is to be deleted:
+<input type = "text" name="stu_id" value="Delete_by_id"> 
+<input type = "submit"> 
+</form>
+<form>
+<!-- Delete using PUT method -->
+
+<!--<input type = "submit" name = "updateStudent" value="Update" formmethod="put"> -->
+</form>
+
+<!--  
+<form action="delete_student" method = "delete" >
+<!-- Student whose record is to be deleted -->
+<!-- Enter student to be deleted: <input type = "text" name = "id"> 
+ -->
+ 
+ <!-- update using PUT method --> 
+ <form action = "Update_Student" method = "put" > 
+ Enter student id to update name: <input type = "text" name  = "stu_id" value = "update"> 
+ Enter new student name: <input type = "text" name = "stu_name" value = "new name" >
+ <input type = "submit"> 
+ 
+ </form>
+ 
+ 
+
+</body>
+</html>
